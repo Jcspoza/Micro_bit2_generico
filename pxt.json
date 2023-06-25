@@ -1,5 +1,6 @@
 {
     "name": "blink_h_holav4",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
