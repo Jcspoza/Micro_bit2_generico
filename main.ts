@@ -1,4 +1,4 @@
-serial.writeLine("blink_h_holav4 - 20210220 - Bq> uB con serial inicio+blink ")
+serial.writeLine("blink_h_holav4 - 20230625 - Bq> uB con serial inicio+blink ")
 basic.showString("Bq4> Hola JC")
 basic.forever(function () {
     basic.showIcon(IconNames.Heart)
