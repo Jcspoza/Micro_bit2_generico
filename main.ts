@@ -1,0 +1,10 @@
+serial.writeLine("blink_h_holav4 - 20210220 - Bq> uB con serial inicio+blink ")
+basic.showString("Bq4> Hola JC")
+basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
+    serial.writeString("corazon G /")
+    basic.pause(100)
+    basic.showIcon(IconNames.SmallHeart)
+    serial.writeString("corazon p /")
+    basic.pause(100)
+})
